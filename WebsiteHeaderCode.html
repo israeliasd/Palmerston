@@ -63,16 +63,19 @@ $(document).ready(function() {
          $("#movingDivTwo").toggle("slow", function(){
            
           if ( $("#revealMovingDivTwo").text() == "Request a Quote" ) {
-          $("#revealMovingDivTwo").text("Show Testimonials");
-          } else if ( $("#revealMovingDivTwo").text() == "Show Testimonials" ){
-               $("#revealMovingDivTwo").text("Request a Quote");
-            }
-         });
-      }); 
-      $(".zIndexTop").attr("height","1000px", function(){
+          $("#revealMovingDivTwo").text("Show Testimonials", function(){
       $( "#updateMovingDiv" ).load(window.location.href + " #updateMovingDiv" );
       
       });
+          } else if ( $("#revealMovingDivTwo").text() == "Show Testimonials" ){
+               $("#revealMovingDivTwo").text("Request a Quote", function(){
+      $( "#updateMovingDiv" ).load(window.location.href + " #updateMovingDiv" );
+      
+      });
+            }
+         });
+      }); 
+      $(".zIndexTop").attr("height","1000px");
    });		
 
 });
