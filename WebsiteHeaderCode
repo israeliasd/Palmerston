@@ -1,0 +1,2015 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120819487-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120819487-1');
+</script>
+
+<title>Palmerston Moving - moving made simple.</title>
+<meta name="description" content="Palmerston Moving offers high end moving services in Toronto and all of Ontario. We also offer Storage and Delivery for Residential and Commercial customers and Interior Designers.
+
+Trusted service partners of ELTE, MKT and GINGER'S.">
+<meta name="keywords" content="moving, movers, toronto, white-glove, best movers, premium movers, designers, delivery, Markham, Oshawa, Mississauga">
+<meta name="author" content="Palmerston Moving Two Men Truck Cargo Cabbie Miracle Toronto">
+
+<script>
+function on() {
+    document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
+</script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<script>
+$(document).ready(function() {
+   $("#revealPhone").mouseenter(function(){             
+      $(".revealPhone").toggle("slow");
+      $(".revealEmail").hide("slow");
+   });
+
+   $("#revealEmail").mouseenter(function(){             
+      $(".revealEmail").toggle("slow");
+      $(".revealPhone").hide("slow");
+   });
+       
+
+});
+</script>
+
+<script>
+	
+$(document).ready(function() {
+		
+   $("#revealMovingDivTwo").click(function(){             
+      $(".movingDivOne").toggle("slow", function(){
+         $("#movingDivTwo").toggle("slow", function(){
+           
+          if ( $("#revealMovingDivTwo").text() == "Request a Quote" ) {
+          $("#revealMovingDivTwo").text("Show Testimonials");
+          } else if ( $("#revealMovingDivTwo").text() == "Show Testimonials" ){
+               $("#revealMovingDivTwo").text("Request a Quote");
+            }
+         });
+      }); 
+      $(".zIndexTop").attr("height","1000px");
+   });		
+
+});
+
+</script>
+
+<script>
+
+$(document).ready(function() {
+   $("#buttonStepOne, #buttonStepOneNext").click(function(){
+     $("#StepOne").siblings().slideUp("slow", function(){
+     $("#StepOne").slideDown("slow");});
+     $("#buttonStepOne").attr("class","fullSwitchSelected");
+     $("#buttonStepTwo").attr("class","fullSwitchNotSelected");
+     $("#buttonStepThree").attr("class","fullSwitchNotSelected");
+   });
+});
+
+$(document).ready(function() {
+   $("#buttonStepTwo, #buttonStepTwoNext").click(function(){
+     $("#StepTwo").siblings().slideUp("slow", function(){
+     $("#StepTwo").slideDown("slow");});
+     $("#buttonStepTwo").attr("class","fullSwitchSelected");
+     $("#buttonStepOne").attr("class","fullSwitchNotSelected");
+     $("#buttonStepThree").attr("class","fullSwitchNotSelected");
+   });
+});
+
+$(document).ready(function() {
+   $("#buttonStepThree, #buttonStepThreeNext").click(function(){
+     $("#StepThree").siblings().slideUp("slow", function(){
+     $("#StepThree").slideDown("slow");});
+     $("#buttonStepThree").attr("class","fullSwitchSelected");
+     $("#buttonStepOne").attr("class","fullSwitchNotSelected");
+     $("#buttonStepTwo").attr("class","fullSwitchNotSelected");
+   });
+});
+
+$(document).ready(function() {
+   $("#goTop").click(function(){             
+
+       $(window).on('scroll', function() {
+	  var scroll = $(this).scrollTop(),
+	  $topBtn = $( selectors.topBtn );
+       });
+});
+
+</script>
+
+<script type="text/javascript">
+window.onload=function(){ 
+
+ function querySt(ji) {
+
+ hu = window.location.search.substring(1); 
+ gy = hu.split("&");
+
+for (i=0;i<gy.length;i++) { 
+ft = gy[i].split("="); 
+if (ft[0] == ji) { 
+ return ft[1]; 
+ } 
+ } 
+ } 
+
+var fieldName = querySt("fieldName");
+var promoCode = querySt("promoCode");
+
+ if( fieldName==null){ 
+ }else{ 
+ document.getElementById('fillfield').value = fieldName; 
+ }
+
+ if( promoCode==null){ 
+ }else{ 
+ document.getElementById('promofield').value = promoCode; 
+ } 
+}
+
+
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+   if ( $('[type="date"]').prop('type') != 'date' ) {
+   $(".theDate").datepicker({ dateFormat: 'yy-mm-dd' }).val();
+   }
+});
+
+$(document).ready(function(){
+   if ( $('[type="date"]').prop('type') != 'date' ) {
+   $(".theDate2").datepicker({ dateFormat: 'yy-mm-dd' }).val();
+   }
+});
+
+</script>
+
+<script type="text/javascript">
+  jQuery(document).ready(function($){
+
+    //hide all inputs except the first one
+    $('p.hide_this').not(':eq(0)').hide();
+
+    //functionality for add-file link
+    $('a.add_file').on('click', function(e){
+      //show by click the first one from hidden inputs
+      $('p.hide_this:not(:visible):first').show('slow');
+      e.preventDefault();
+    });
+
+    //functionality for del-file link
+    $('a.del_file').on('click', function(e){
+      //var init
+      var input_parent = $(this).parent();
+      var input_wrap = input_parent.find('span');
+      //reset field value
+      input_wrap.html(input_wrap.html());
+      //hide by click
+      input_parent.hide('slow');
+      e.preventDefault();
+    });
+  });
+</script>
+
+<script>
+
+
+
+$(document).ready(function(){
+
+  $("#description1-0").focusout(function(){
+
+        if ( $("#sku-number1-0").val() == ""){
+        $("#sku-number1-0").val("SKU #");
+        }
+        
+        if ( $("#description1-0").val() == ""){
+        $("#description1-0").val("Description");
+        }
+        
+        if ( $("#qty1-0").val() == ""){
+        $("#qty1-0").val("Qty");
+        }
+        
+        if ( $("#order1-0").val() == ""){
+        $("#order1-0").val("Order #");
+        }
+  });
+  
+  $("#description1-1").focusout(function(){
+
+        if ( $("#sku-number1-1").val() == ""){
+        $("#sku-number1-1").val("SKU #");
+        }
+        
+        if ( $("#description1-1").val() == ""){
+        $("#description1-1").val("Description");
+        }
+        
+        if ( $("#qty1-1").val() == ""){
+        $("#qty1-1").val("Qty");
+        }
+        
+        if ( $("#order1-1").val() == ""){
+        $("#order1-1").val("Order #");
+        }
+  });
+  
+    $("#description1-2").focusout(function(){
+
+        if ( $("#sku-number1-2").val() == ""){
+        $("#sku-number1-2").val("SKU #");
+        }
+        
+        if ( $("#description1-2").val() == ""){
+        $("#description1-2").val("Description");
+        }
+        
+        if ( $("#qty1-2").val() == ""){
+        $("#qty1-2").val("Qty");
+        }
+        
+        if ( $("#order1-2").val() == ""){
+        $("#order1-2").val("Order #");
+        }
+  });
+  
+  $("#description1-3").focusout(function(){
+
+        if ( $("#sku-number1-3").val() == ""){
+        $("#sku-number1-3").val("SKU #");
+        }
+        
+        if ( $("#description1-3").val() == ""){
+        $("#description1-3").val("Description");
+        }
+        
+        if ( $("#qty1-3").val() == ""){
+        $("#qty1-3").val("Qty");
+        }
+        
+        if ( $("#order1-3").val() == ""){
+        $("#order1-3").val("Order #");
+        }
+  });
+  
+  
+  $("#description1-4").focusout(function(){
+
+        if ( $("#sku-number1-4").val() == ""){
+        $("#sku-number1-4").val("SKU #");
+        }
+        
+        if ( $("#description1-4").val() == ""){
+        $("#description1-4").val("Description");
+        }
+        
+        if ( $("#qty1-4").val() == ""){
+        $("#qty1-4").val("Qty");
+        }
+        
+        if ( $("#order1-4").val() == ""){
+        $("#order1-4").val("Order #");
+        }
+  });
+
+  $("#description1-5").focusout(function(){
+
+        if ( $("#sku-number1-5").val() == ""){
+        $("#sku-number1-5").val("SKU #");
+        }
+        
+        if ( $("#description1-5").val() == ""){
+        $("#description1-5").val("Description");
+        }
+        
+        if ( $("#qty1-5").val() == ""){
+        $("#qty1-5").val("Qty");
+        }
+        
+        if ( $("#order1-5").val() == ""){
+        $("#order1-5").val("Order #");
+        }
+  });
+  
+  $("#description1-6").focusout(function(){
+
+        if ( $("#sku-number1-6").val() == ""){
+        $("#sku-number1-6").val("SKU #");
+        }
+        
+        if ( $("#description1-6").val() == ""){
+        $("#description1-6").val("Description");
+        }
+        
+        if ( $("#qty1-6").val() == ""){
+        $("#qty1-6").val("Qty");
+        }
+        
+        if ( $("#order1-6").val() == ""){
+        $("#order1-6").val("Order #");
+        }
+  });
+
+  $("#description1-7").focusout(function(){
+
+        if ( $("#sku-number1-7").val() == ""){
+        $("#sku-number1-7").val("SKU #");
+        }
+        
+        if ( $("#description1-7").val() == ""){
+        $("#description1-7").val("Description");
+        }
+        
+        if ( $("#qty1-7").val() == ""){
+        $("#qty1-7").val("Qty");
+        }
+        
+        if ( $("#order1-7").val() == ""){
+        $("#order1-7").val("Order #");
+        }
+  });
+  
+  $("#description1-8").focusout(function(){
+
+        if ( $("#sku-number1-8").val() == ""){
+        $("#sku-number1-8").val("SKU #");
+        }
+        
+        if ( $("#description1-8").val() == ""){
+        $("#description1-8").val("Description");
+        }
+        
+        if ( $("#qty1-8").val() == ""){
+        $("#qty1-8").val("Qty");
+        }
+        
+        if ( $("#order1-8").val() == ""){
+        $("#order1-8").val("Order #");
+        }
+  });
+  
+  $("#description1-9").focusout(function(){
+
+        if ( $("#sku-number1-9").val() == ""){
+        $("#sku-number1-9").val("SKU #");
+        }
+        
+        if ( $("#description1-9").val() == ""){
+        $("#description1-9").val("Description");
+        }
+        
+        if ( $("#qty1-9").val() == ""){
+        $("#qty1-9").val("Qty");
+        }
+        
+        if ( $("#order1-9").val() == ""){
+        $("#order1-9").val("Order #");
+        }
+  });
+  
+  $("#description1-10").focusout(function(){
+
+        if ( $("#sku-number1-10").val() == ""){
+        $("#sku-number1-10").val("SKU #");
+        }
+        
+        if ( $("#description1-10").val() == ""){
+        $("#description1-10").val("Description");
+        }
+        
+        if ( $("#qty1-10").val() == ""){
+        $("#qty1-10").val("Qty");
+        }
+        
+        if ( $("#order1-10").val() == ""){
+        $("#order1-10").val("Order #");
+        }
+  });
+
+
+  $("#description2-0").focusout(function(){
+
+        if ( $("#sku-number2-0").val() == ""){
+        $("#sku-number2-0").val("SKU #");
+        }
+        
+        if ( $("#description2-0").val() == ""){
+        $("#description2-0").val("Description");
+        }
+        
+        if ( $("#qty2-0").val() == ""){
+        $("#qty2-0").val("Qty");
+        }
+        
+        if ( $("#order2-0").val() == ""){
+        $("#order2-0").val("Order #");
+        }
+  });
+  
+  $("#description2-1").focusout(function(){
+
+        if ( $("#sku-number2-1").val() == ""){
+        $("#sku-number2-1").val("SKU #");
+        }
+        
+        if ( $("#description2-1").val() == ""){
+        $("#description2-1").val("Description");
+        }
+        
+        if ( $("#qty2-1").val() == ""){
+        $("#qty2-1").val("Qty");
+        }
+        
+        if ( $("#order2-1").val() == ""){
+        $("#order2-1").val("Order #");
+        }
+  });
+  
+    $("#description2-2").focusout(function(){
+
+        if ( $("#sku-number2-2").val() == ""){
+        $("#sku-number2-2").val("SKU #");
+        }
+        
+        if ( $("#description2-2").val() == ""){
+        $("#description2-2").val("Description");
+        }
+        
+        if ( $("#qty2-2").val() == ""){
+        $("#qty1-2").val("Qty");
+        }
+        
+        if ( $("#order2-2").val() == ""){
+        $("#order2-2").val("Order #");
+        }
+  });
+  
+  $("#description2-3").focusout(function(){
+
+        if ( $("#sku-number2-3").val() == ""){
+        $("#sku-number2-3").val("SKU #");
+        }
+        
+        if ( $("#description2-3").val() == ""){
+        $("#description2-3").val("Description");
+        }
+        
+        if ( $("#qty2-3").val() == ""){
+        $("#qty2-3").val("Qty");
+        }
+        
+        if ( $("#order2-3").val() == ""){
+        $("#order2-3").val("Order #");
+        }
+  });
+  
+  
+  $("#description2-4").focusout(function(){
+
+        if ( $("#sku-number2-4").val() == ""){
+        $("#sku-number2-4").val("SKU #");
+        }
+        
+        if ( $("#description2-4").val() == ""){
+        $("#description2-4").val("Description");
+        }
+        
+        if ( $("#qty2-4").val() == ""){
+        $("#qty2-4").val("Qty");
+        }
+        
+        if ( $("#order2-4").val() == ""){
+        $("#order2-4").val("Order #");
+        }
+  });
+
+  $("#description2-5").focusout(function(){
+
+        if ( $("#sku-number2-5").val() == ""){
+        $("#sku-number2-5").val("SKU #");
+        }
+        
+        if ( $("#description2-5").val() == ""){
+        $("#description2-5").val("Description");
+        }
+        
+        if ( $("#qty2-5").val() == ""){
+        $("#qty2-5").val("Qty");
+        }
+        
+        if ( $("#order2-5").val() == ""){
+        $("#order2-5").val("Order #");
+        }
+  });
+  
+  $("#description2-6").focusout(function(){
+
+        if ( $("#sku-number2-6").val() == ""){
+        $("#sku-number2-6").val("SKU #");
+        }
+        
+        if ( $("#description2-6").val() == ""){
+        $("#description2-6").val("Description");
+        }
+        
+        if ( $("#qty2-6").val() == ""){
+        $("#qty2-6").val("Qty");
+        }
+        
+        if ( $("#order2-6").val() == ""){
+        $("#order2-6").val("Order #");
+        }
+  });
+
+  $("#description2-7").focusout(function(){
+
+        if ( $("#sku-number2-7").val() == ""){
+        $("#sku-number2-7").val("SKU #");
+        }
+        
+        if ( $("#description2-7").val() == ""){
+        $("#description2-7").val("Description");
+        }
+        
+        if ( $("#qty2-7").val() == ""){
+        $("#qty2-7").val("Qty");
+        }
+        
+        if ( $("#order2-7").val() == ""){
+        $("#order2-7").val("Order #");
+        }
+  });
+  
+  $("#description2-8").focusout(function(){
+
+        if ( $("#sku-number2-8").val() == ""){
+        $("#sku-number2-8").val("SKU #");
+        }
+        
+        if ( $("#description2-8").val() == ""){
+        $("#description2-8").val("Description");
+        }
+        
+        if ( $("#qty2-8").val() == ""){
+        $("#qty2-8").val("Qty");
+        }
+        
+        if ( $("#order2-8").val() == ""){
+        $("#order2-8").val("Order #");
+        }
+  });
+  
+  $("#description2-9").focusout(function(){
+
+        if ( $("#sku-number2-9").val() == ""){
+        $("#sku-number2-9").val("SKU #");
+        }
+        
+        if ( $("#description2-9").val() == ""){
+        $("#description2-9").val("Description");
+        }
+        
+        if ( $("#qty2-9").val() == ""){
+        $("#qty2-9").val("Qty");
+        }
+        
+        if ( $("#order2-9").val() == ""){
+        $("#order2-9").val("Order #");
+        }
+  });
+  
+  $("#description2-10").focusout(function(){
+
+        if ( $("#sku-number2-10").val() == ""){
+        $("#sku-number2-10").val("SKU #");
+        }
+        
+        if ( $("#description2-10").val() == ""){
+        $("#description2-10").val("Description");
+        }
+        
+        if ( $("#qty2-10").val() == ""){
+        $("#qty2-10").val("Qty");
+        }
+        
+        if ( $("#order2-10").val() == ""){
+        $("#order2-10").val("Order #");
+        }
+  });
+
+
+  $("#description3-0").focusout(function(){
+
+        if ( $("#sku-number3-0").val() == ""){
+        $("#sku-number3-0").val("SKU #");
+        }
+        
+        if ( $("#description3-0").val() == ""){
+        $("#description3-0").val("Description");
+        }
+        
+        if ( $("#qty3-0").val() == ""){
+        $("#qty3-0").val("Qty");
+        }
+        
+        if ( $("#order3-0").val() == ""){
+        $("#order3-0").val("Order #");
+        }
+  });
+  
+  $("#description3-1").focusout(function(){
+
+        if ( $("#sku-number3-1").val() == ""){
+        $("#sku-number3-1").val("SKU #");
+        }
+        
+        if ( $("#description3-1").val() == ""){
+        $("#description3-1").val("Description");
+        }
+        
+        if ( $("#qty3-1").val() == ""){
+        $("#qty3-1").val("Qty");
+        }
+        
+        if ( $("#order3-1").val() == ""){
+        $("#order3-1").val("Order #");
+        }
+  });
+  
+    $("#description3-2").focusout(function(){
+
+        if ( $("#sku-number3-2").val() == ""){
+        $("#sku-number3-2").val("SKU #");
+        }
+        
+        if ( $("#description3-2").val() == ""){
+        $("#description3-2").val("Description");
+        }
+        
+        if ( $("#qty3-2").val() == ""){
+        $("#qty1-2").val("Qty");
+        }
+        
+        if ( $("#order3-2").val() == ""){
+        $("#order3-2").val("Order #");
+        }
+  });
+  
+  $("#description3-3").focusout(function(){
+
+        if ( $("#sku-number3-3").val() == ""){
+        $("#sku-number3-3").val("SKU #");
+        }
+        
+        if ( $("#description3-3").val() == ""){
+        $("#description3-3").val("Description");
+        }
+        
+        if ( $("#qty3-3").val() == ""){
+        $("#qty3-3").val("Qty");
+        }
+        
+        if ( $("#order3-3").val() == ""){
+        $("#order3-3").val("Order #");
+        }
+  });
+  
+  
+  $("#description3-4").focusout(function(){
+
+        if ( $("#sku-number3-4").val() == ""){
+        $("#sku-number3-4").val("SKU #");
+        }
+        
+        if ( $("#description3-4").val() == ""){
+        $("#description3-4").val("Description");
+        }
+        
+        if ( $("#qty3-4").val() == ""){
+        $("#qty3-4").val("Qty");
+        }
+        
+        if ( $("#order3-4").val() == ""){
+        $("#order3-4").val("Order #");
+        }
+  });
+
+  $("#description3-5").focusout(function(){
+
+        if ( $("#sku-number3-5").val() == ""){
+        $("#sku-number3-5").val("SKU #");
+        }
+        
+        if ( $("#description3-5").val() == ""){
+        $("#description3-5").val("Description");
+        }
+        
+        if ( $("#qty3-5").val() == ""){
+        $("#qty3-5").val("Qty");
+        }
+        
+        if ( $("#order3-5").val() == ""){
+        $("#order3-5").val("Order #");
+        }
+  });
+  
+  $("#description3-6").focusout(function(){
+
+        if ( $("#sku-number3-6").val() == ""){
+        $("#sku-number3-6").val("SKU #");
+        }
+        
+        if ( $("#description3-6").val() == ""){
+        $("#description3-6").val("Description");
+        }
+        
+        if ( $("#qty3-6").val() == ""){
+        $("#qty3-6").val("Qty");
+        }
+        
+        if ( $("#order3-6").val() == ""){
+        $("#order3-6").val("Order #");
+        }
+  });
+
+  $("#description3-7").focusout(function(){
+
+        if ( $("#sku-number3-7").val() == ""){
+        $("#sku-number3-7").val("SKU #");
+        }
+        
+        if ( $("#description3-7").val() == ""){
+        $("#description3-7").val("Description");
+        }
+        
+        if ( $("#qty3-7").val() == ""){
+        $("#qty3-7").val("Qty");
+        }
+        
+        if ( $("#order3-7").val() == ""){
+        $("#order3-7").val("Order #");
+        }
+  });
+  
+  $("#description3-8").focusout(function(){
+
+        if ( $("#sku-number3-8").val() == ""){
+        $("#sku-number3-8").val("SKU #");
+        }
+        
+        if ( $("#description3-8").val() == ""){
+        $("#description3-8").val("Description");
+        }
+        
+        if ( $("#qty3-8").val() == ""){
+        $("#qty3-8").val("Qty");
+        }
+        
+        if ( $("#order3-8").val() == ""){
+        $("#order3-8").val("Order #");
+        }
+  });
+  
+  $("#description3-9").focusout(function(){
+
+        if ( $("#sku-number3-9").val() == ""){
+        $("#sku-number3-9").val("SKU #");
+        }
+        
+        if ( $("#description3-9").val() == ""){
+        $("#description3-9").val("Description");
+        }
+        
+        if ( $("#qty3-9").val() == ""){
+        $("#qty3-9").val("Qty");
+        }
+        
+        if ( $("#order3-9").val() == ""){
+        $("#order3-9").val("Order #");
+        }
+  });
+  
+  $("#description3-10").focusout(function(){
+
+        if ( $("#sku-number3-10").val() == ""){
+        $("#sku-number3-10").val("SKU #");
+        }
+        
+        if ( $("#description3-10").val() == ""){
+        $("#description3-10").val("Description");
+        }
+        
+        if ( $("#qty3-10").val() == ""){
+        $("#qty3-10").val("Qty");
+        }
+        
+        if ( $("#order3-10").val() == ""){
+        $("#order3-10").val("Order #");
+        }
+  });
+
+
+});
+
+
+
+$(document).ready(function(){
+    $("#buttonTime1").click(function(){
+    
+    var buttonText = $("#buttonTime1").text();
+    
+    if ( buttonText == "1 Hour Window") {
+    
+       $("#buttonTime1").text("3 Hours Window");
+       $("#pickup-time-window-flex").val("");
+       $("#flexibleWindow1").hide(500, function(){
+           $("#sharpWindow1").show(500,function(){
+           $("#warning1").show(500);
+           });
+       });
+       }
+    else {
+       $("#buttonTime1").text("1 Hour Window");
+       $("#pickup-time-window-sharp").val("");
+       $("#sharpWindow1").hide(500,function(){
+           $("#flexibleWindow1").show(500,function(){
+           $("#warning1").hide(500);
+       }); 
+       });
+       }  
+});
+
+ $("#buttonTime2").click(function(){
+    
+    var buttonText2 = $("#buttonTime2").text();
+    
+    if ( buttonText2 == "1 Hour Window") {
+    
+       $("#buttonTime2").text("3 Hours Window");
+       $("#pickup-time-window-sharp2").val("");
+       $("#flexibleWindow2").hide(500, function(){
+           $("#sharpWindow2").show(500,function(){
+           $("#warning2").show(500);
+           });
+       });
+       }
+    else {
+       $("#buttonTime2").text("1 Hour Window");
+       $("#pickup-time-window-flex2").val("");
+       $("#sharpWindow2").hide(500,function(){
+           $("#flexibleWindow2").show(500,function(){
+           $("#warning2").hide(500);
+       }); 
+       });        
+       }
+});
+
+ $("#buttonTime3").click(function(){
+    
+    var buttonText3 = $("#buttonTime3").text();
+    
+    
+    if ( buttonText3 == "1 Hour Window") {
+    
+       $("#buttonTime3").text("3 Hours Window");
+       $("#pickup-time-window-sharp3").val("");
+       $("#flexibleWindow3").hide(500, function(){
+           $("#sharpWindow3").show(500,function(){
+           $("#warning3").show(500);
+           });
+       });
+       }
+    else {
+       $("#buttonTime3").text("1 Hour Window");
+       $("#pickup-time-window-flex3").val("");
+       $("#sharpWindow3").hide(500,function(){
+           $("#flexibleWindow3").show(500,function(){
+           $("#warning3").hide(500);
+       }); 
+       });
+       }
+});
+
+ $("#buttonTime4").click(function(){
+    
+    var buttonText4 = $("#buttonTime4").text();
+    
+    
+    if ( buttonText4 == "1 Hour Window") {
+    
+       $("#buttonTime4").text("3 Hours Window");
+       $("#delivery-window-sharp").val("");
+       $("#flexibleWindow4").hide(500, function(){
+           $("#sharpWindow4").show(500,function(){
+           $("#warning4").show(500);
+           });
+       });
+       }
+    else {
+       $("#buttonTime4").text("1 Hour Window");
+       $("#delivery-window-flex").val("");
+       $("#sharpWindow4").hide(500,function(){
+           $("#flexibleWindow4").show(500,function(){
+           $("#warning4").hide(500);
+       }); 
+       });
+       }
+});
+
+});
+
+$(document).ready(function(){
+    $("#deliveryFormButton").click(function(){
+        $("#movingForm").slideUp(500, function() {
+           $("#deliveryForm").slideDown(500);
+        });
+
+        $("#deliveryFormButton").attr({
+            "class" : "fullSwitchSelected"
+        });
+
+        $("#movingFormButton").attr({
+            "class" : "fullSwitchNotSelected"
+        });
+
+    });
+});
+
+$(document).ready(function(){
+    $("#movingFormButton").click(function(){
+        $("#deliveryForm").slideUp(500, function(){
+            $("#movingForm").slideDown(500);
+        });
+        $("#movingFormButton").attr({
+            "class" : "fullSwitchSelected"
+        });
+
+        $("#deliveryFormButton").attr({
+            "class" : "fullSwitchNotSelected"
+        });
+
+    });
+});
+
+$(document).ready(function(){
+        if ($(document).width() < 575) {
+        $(".addItem").html("<span style='font-size: 13px;'>Add Item</span>");
+        $(".addPickup").html("<span style='font-size: 13px;'>Add pick-up location</span>");
+        $(".addPickup").attr({"style" : "margin: 10px 0 !important"});
+        }
+});
+
+
+$(document).ready(function(){
+
+
+   $("#addPickup2").click(function(){
+    $("#Pickup2").show(500);
+    $("#addPickup2").text("");
+    $("#addPickup2").hide(500);
+
+   });
+    
+
+   $("#addPickup3").click(function(){
+      $("#Pickup3").show(500);
+    $("#addPickup3").text("");
+    $("#addPickup3").hide(500);
+   });
+
+
+   $("#addItem1-1").click(function(){
+   $("#Item1-1").show(500);
+    $("#addItem1-1").text("");
+    $("#addItem1-1").hide(500);
+   });
+    
+    
+   $("#addItem1-2").click(function(){
+   $("#Item1-2").show(500);
+    $("#addItem1-2").text("");
+    $("#addItem1-2").hide(500);
+    });
+    
+   $("#addItem1-3").click(function(){
+        $("#Item1-3").show(500);
+    $("#addItem1-3").text("");
+    $("#addItem1-3").hide(500);
+    });   
+     
+   $("#addItem1-4").click(function(){
+    
+   $("#Item1-4").show(500);
+    $("#addItem1-4").text("");
+    $("#addItem1-4").hide(500);
+    });
+        
+   $("#addItem1-5").click(function(){
+      $("#Item1-5").show(500);
+    $("#addItem1-5").text("");
+    $("#addItem1-5").hide(500);
+
+    });
+        
+   $("#addItem1-6").click(function(){
+      $("#Item1-6").show(500);
+    $("#addItem1-6").text("");
+    $("#addItem1-6").hide(500);
+
+    });
+        
+   $("#addItem1-7").click(function(){
+    
+      $("#Item1-7").show(500);
+    $("#addItem1-7").text("");
+    $("#addItem1-7").hide(500);
+    });
+        
+   $("#addItem1-8").click(function(){
+    
+      $("#Item1-8").show(500);
+    $("#addItem1-8").text("");
+    $("#addItem1-8").hide(500);
+
+    });
+        
+   $("#addItem1-9").click(function(){
+    
+      $("#Item1-9").show(500);
+    $("#addItem1-9").text("");
+    $("#addItem1-9").hide(500);
+
+    });
+        
+   $("#addItem1-10").click(function(){
+    
+      $("#Item1-10").show(500);
+    $("#addItem1-10").text("");
+    $("#addItem1-10").hide(500);
+
+    });
+        
+   $("#addItem1-11").click(function(){
+    
+      $("#Item1-11").show(500);
+    $("#addItem1-11").text("");
+    $("#addItem1-11").hide(500);
+
+    });
+    
+       $("#addItem2-1").click(function(){
+    
+      $("#Item2-1").show(500);
+    $("#addItem2-1").text("");
+    $("#addItem2-1").hide(500);
+
+   });
+    
+    
+   $("#addItem2-2").click(function(){
+    
+      $("#Item2-2").show(500);
+    $("#addItem2-2").text("");
+    $("#addItem2-2").hide(500);
+
+    });
+    
+   $("#addItem2-3").click(function(){
+    
+      $("#Item2-3").show(500);
+    $("#addItem2-3").text("");
+    $("#addItem2-3").hide(500);
+
+    });   
+     
+   $("#addItem2-4").click(function(){
+    
+      $("#Item2-4").show(500);
+    $("#addItem2-4").text("");
+    $("#addItem2-4").hide(500);
+
+    });
+        
+   $("#addItem2-5").click(function(){
+    
+      $("#Item2-5").show(500);
+    $("#addItem2-5").text("");
+    $("#addItem2-5").hide(500);
+
+    });
+        
+   $("#addItem2-6").click(function(){
+    
+      $("#Item2-6").show(500);
+    $("#addItem2-6").text("");
+    $("#addItem2-6").hide(500);
+
+    });
+        
+   $("#addItem2-7").click(function(){
+    
+      $("#Item2-7").show(500);
+    $("#addItem2-7").text("");
+    $("#addItem2-7").hide(500);
+
+    });
+        
+   $("#addItem2-8").click(function(){
+   
+      $("#Item2-8").show(500);
+    $("#addItem2-8").text("");
+    $("#addItem2-8").hide(500);
+
+    });
+        
+   $("#addItem2-9").click(function(){
+    
+      $("#Item2-9").show(500);
+    $("#addItem2-9").text("");
+    $("#addItem2-9").hide(500);
+
+    });
+        
+   $("#addItem2-10").click(function(){
+    
+      $("#Item2-10").show(500);
+    $("#addItem2-10").text("");
+    $("#addItem2-10").hide(500);
+
+    });
+        
+   $("#addItem2-11").click(function(){
+    
+      $("#Item2-11").show(500);
+    $("#addItem2-11").text("");
+    $("#addItem2-11").hide(500);
+
+    });
+    
+        
+   $("#addItem3-1").click(function(){
+    
+      $("#Item3-1").show(500);
+    $("#addItem3-1").text("");
+    $("#addItem3-1").hide(500);
+
+   });
+    
+    
+   $("#addItem3-2").click(function(){
+    
+      $("#Item3-2").show(500);
+    $("#addItem3-2").text("");
+    $("#addItem3-2").hide(500);
+
+    });
+    
+   $("#addItem3-3").click(function(){
+    
+      $("#Item3-3").show(500);
+    $("#addItem3-3").text("");
+    $("#addItem3-3").hide(500);
+
+    });   
+     
+   $("#addItem3-4").click(function(){
+    
+      $("#Item3-4").show(500);
+    $("#addItem3-4").text("");
+    $("#addItem3-4").hide(500);
+
+    });
+        
+   $("#addItem3-5").click(function(){
+    
+      $("#Item3-5").show(500);
+    $("#addItem3-5").text("");
+    $("#addItem3-5").hide(500);
+
+    });
+        
+   $("#addItem3-6").click(function(){
+    
+      $("#Item3-6").show(500);
+    $("#addItem3-6").text("");
+    $("#addItem3-6").hide(500);
+
+    });
+        
+   $("#addItem3-7").click(function(){
+    
+      $("#Item3-7").show(500);
+    $("#addItem3-7").text("");
+    $("#addItem3-7").hide(500);
+
+    });
+        
+   $("#addItem3-8").click(function(){
+    
+      $("#Item3-8").show(500);
+    $("#addItem3-8").text("");
+    $("#addItem3-8").hide(500);
+
+    });
+        
+   $("#addItem3-9").click(function(){
+    
+      $("#Item3-9").show(500);
+    $("#addItem3-9").text("");
+    $("#addItem3-9").hide(500);
+
+    });
+        
+   $("#addItem3-10").click(function(){
+    
+      $("#Item3-10").show(500);
+    $("#addItem3-10").text("");
+    $("#addItem3-10").hide(500);
+
+    });
+        
+   $("#addItem3-11").click(function(){
+    
+      $("#Item3-11").show(500);
+    $("#addItem3-11").text("");
+    $("#addItem3-11").hide(500);
+
+    });
+    
+});
+
+</script>
+
+
+<style>
+
+/* REQUEST FORM */
+
+.alignCenter{
+text-align: center;
+}
+
+.ui-datepicker {
+	background-color: #fff;
+	border: 0px solid #ffffff;
+	border-radius: 10px !important;
+	box-shadow: 0 0 25px rgba(102,102,102,.6);
+	display: none;
+	margin-top: 4px;
+	padding: 10px;
+	width: 240px;
+}
+.ui-datepicker a,
+.ui-datepicker a:hover {
+	text-decoration: none;
+}
+.ui-datepicker a:hover,
+.ui-datepicker td:hover a {
+	color: #2A6496;
+    border: 0;
+	-webkit-transition: color 0.1s ease-in-out;
+	   -moz-transition: color 0.1s ease-in-out;
+	     -o-transition: color 0.1s ease-in-out;
+	        transition: color 0.1s ease-in-out;
+}
+.ui-datepicker .ui-datepicker-header {
+	margin-bottom: 4px;
+	text-align: center;
+    background-color: #ffffff;
+    border: 0;
+}
+.ui-datepicker .ui-datepicker-title {
+	font-weight: 800;
+    font-family: nunito;
+    color: #888b8d;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	cursor: default;
+	font-family: nunito;
+	-webkit-font-smoothing: antialiased;
+	font-style: normal;
+	font-weight: 700;
+	height: 20px;
+	line-height: 1;
+	margin-top: 2px;
+	width: 30px;
+}
+
+
+.ui-datepicker .ui-icon {
+	display: none;
+}
+.ui-datepicker .ui-datepicker-calendar {
+  table-layout: fixed;
+	width: 100%;
+}
+.ui-datepicker .ui-datepicker-calendar th,
+.ui-datepicker .ui-datepicker-calendar td {
+	text-align: center;
+	padding: 4px 0;
+}
+.ui-datepicker .ui-datepicker-calendar td {
+	border-radius: 4px;
+    border: 0;
+	-webkit-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	   -moz-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	     -o-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	        transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+.ui-datepicker .ui-datepicker-calendar td:hover {
+	background-color: #eee;
+	cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-calendar td a {
+	text-decoration: none;
+    border: 0;
+    
+}
+.ui-datepicker .ui-datepicker-current-day {
+	background-color: #4289cc;
+}
+.ui-datepicker .ui-datepicker-current-day a {
+	color: #fff
+}
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-unselectable:hover {
+	background-color: #fff;
+	cursor: default;
+}
+
+.ui-datepicker tr , .ui-datepicker table {
+border: 0 !important;
+}
+
+/* END */
+
+
+.dropShadow{
+box-shadow: 5px 5px 5px #707070;    
+}
+
+.footerLinks{
+    border-left: solid 1px #ebebeb!important;
+    padding-left: 20px;
+    margin: 0px;
+    display: block;
+    
+}
+
+.footerLinks:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footerTitle, .footerTitle:link, .footerTitle:hover{
+    border-left: solid 1px #ebebeb !important;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin: 0px;
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000! important;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: default;
+}
+
+.footerButton, .footerButton:link{
+font-style: italic;
+display: inline-block;
+padding: 5px 20px;
+background-color: #f5f5f5;
+text-decoration: none;
+color: #707070;
+}
+
+
+.footerButton:hover{
+background-color: #ebebeb;
+text-decoration: none;
+color: #707070 !important;
+}
+
+.footerTel{
+letter-spacing: 2px; 
+font-size: 22px; 
+font-family: Trebuchet MS; 
+color: #000 !important;
+}
+
+.footerTel:hover{
+text-decoration: none;    
+}
+
+/* Social Media */
+.faSocial{
+  color: #707070 !important;  
+  padding: 7px !important;
+  font-size: 12px !important;
+  width: 30px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  margin: 0px !important;
+  display: inline-block;
+  border: 2px solid #707070;
+  border-radius: 100%;
+}
+
+.faSocial:hover {
+    background: #1674d1;
+    color: #fff !important;
+    border: 2px solid #ffffff !important;
+}
+
+.fa-facebook:hover {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-houzz:hover {
+  background: #8bbf56;
+  color: white;
+}
+
+.fa-google:hover {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin:hover {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-yelp:hover {
+  background: #c1372e;
+  color: white;
+}
+
+.fa-instagram:hover {
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  color: white;
+}
+
+/* links */
+
+.pageSquares{
+    overflow-wrap: break-word;
+    padding: 20px 20px 20px 50px !important;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #e8e8e8 !important;
+    transition: 0.9s;
+}
+
+.pageSquares:hover{
+    background-color: #e8e8e8;
+    transition: 0.9s; 
+}
+
+.pageLinks:link{
+    text-decoration: none;
+    font-size: 11px;
+    color: #252525;
+}
+
+.pageLinks:hover{
+    color: #1674d1;
+}
+
+.hide_this{
+display: block;
+}
+
+.hide_this span{
+width: 100%;
+}
+
+.del_file{
+position: absolute;
+top: 16px;
+right: 18px;
+color: #b50808;
+padding: 0px 7px;
+border-radius: 4px;
+background-color:#ffffff;
+z-index: 3;
+}
+
+.del_file:hover{
+background-color:#b50808;
+color: #ffffff;
+text-decoration: none;
+}
+
+#grve-theme-wrapper input[type="file"]{
+	-webkit-appearance: none;
+	-moz-appearance:    none;
+	border: 1px solid;
+	padding: 16px 20px;
+	outline: none;
+	color: inherit;
+	margin: 0;
+	width: 100%;
+	font-size: 12px;
+	font-family: inherit;
+	margin-bottom: 4px;
+	background: transparent;
+	border-color: inherit;
+	min-height: 42px;
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-o-border-radius: 50px;
+	border-radius: 50px;
+	-webkit-box-shadow: inset 0 0 0 0 rgba(0,0,0,0);
+	box-shadow: inset 0 0 0 0 rgba(0,0,0,0);
+	position: relative;
+	z-index: 2;
+}
+
+input[type="file"]:focus{
+	outline: none;
+}
+
+.grve-extra-round{
+text-align: center !important;
+margin:0 !important; 
+}
+
+.checkBoxes{
+padding-bottom: 40px;
+text-align: left;
+float: left;
+}
+
+.checkBoxesFull{
+padding-bottom: 40px;
+text-align: left;
+float: left;
+width: 100%;
+}
+
+.checkBoxesFull span{
+padding-bottom: 3px;
+text-align: left;
+font-size: 16px;
+float: left;
+width: 100%;
+}
+
+.wpcf7-list-item {
+min-width: 40% !important;
+}
+
+/* Coming Soon Hidden DIV */
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999999999999;
+    cursor: pointer;
+    transition: 2.5s;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+@media only screen and (max-width: 700px) {
+#grve-feature-section {
+display: none;
+}
+}
+
+.headerMobile{
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+@media only screen and (min-width: 700px) {
+.headerMobile {
+display: none;
+}
+}
+
+.serviceBoxMoving{transition: 1s; background-image: url('http://www.palmerstonmoving.com/wp-content/uploads/2018/07/moving-company-Toronto-Best-movers.jpg'); background-size: cover !important; background-repeat: no-repeat; background-position: center; }
+.serviceBoxMoving h3, .serviceBoxDelivery h3, .serviceBoxStorage h3{color: white;}
+.serviceBoxMoving:hover, .serviceBoxDelivery:hover, .serviceBoxStorage:hover{background-color: #888b8d !important; transition: 1s !important; background-image: none !important;}
+.serviceBoxMoving p, .serviceBoxDelivery p, .serviceBoxStorage p{color: #ffffff !important; transition: 0.5s;}
+
+.serviceBoxDelivery{transition: 1s; background-image: url('http://www.palmerstonmoving.com/wp-content/uploads/2018/07/delivery-company-Toronto-Interior-Designers-installations.jpg'); background-size: cover !important; background-repeat: no-repeat; background-position: center; }
+
+.serviceBoxStorage{transition: 1s; background-image: url('http://www.palmerstonmoving.com/wp-content/uploads/2018/07/storage-company-in-toronto-rates.jpg'); background-size: cover !important; background-repeat: no-repeat; background-position: center; }
+
+
+.serviceBox{transition: 1s; background-color: #f8f8f8;}
+.serviceBox:hover{background-color: #e8e8e8 !important; transition: 1s; background-image: none !important;}
+.serviceBox p{color: #000000 !important; transition: 0.5s;}
+.grve-box-title-wrapper{ height: 50px !important;}
+
+
+@media only screen and (max-width: 702px){
+.videoIframe{
+position:absolute;
+top:0;
+left:0;
+width:100% !important;
+height:100% !important;
+}
+
+.divVideoHome{
+width: 100% !important;
+}
+}
+
+.vp-player-layout{
+    background-color: rgba(0,50,100,0.2) !important;
+    z-index: 2000 !important;
+}
+
+.cantSee{
+color: white !important;
+line-height: 0.0px !important;
+display: inline !important;
+}
+
+.fullSwitchSelected{
+ width: 100%;
+ background-color: #e8e8e8;
+ color: #1a1a1a;
+ display: block;
+ padding: 12px 0;
+ font-size: 13px;
+ text-align: center;
+}
+
+
+.fullSwitchNotSelectedThin{
+ width: 100%;
+ background-color: #f8f8f8;
+ color: #1a1a1a;
+ display: block;
+ padding: 6px 0;
+ font-size: 12px;
+ cursor: pointer;
+ text-align: center;
+}
+
+.fullSwitchNotSelectedThin:hover{
+ background-color: #c0b69a !important;
+ color: #ffffff !important;
+}
+
+
+.fullSwitchNotSelected{
+ width: 100%;
+ background-color: #f8f8f8;
+ color: #1a1a1a;
+ display: block;
+ padding: 12px 0;
+ font-size: 13px;
+ cursor: pointer;
+ text-align: center;
+}
+
+.fullSwitchNotSelected:hover{
+ background-color: #c0b69a !important;
+ color: #ffffff !important;
+}
+
+input, select, textarea{
+border-radius: 10px !important;
+}
+
+#deliveryForm{
+display: none;
+}
+
+#sharpWindow1,#sharpWindow2,#sharpWindow3,#sharpWindow4,#sharpWindow5,#sharpWindow6,#sharpWindow7,#sharpWindow8,#sharpWindow9,#sharpWindow10{
+display: none;
+}
+
+#warning1,#warning2,#warning3,#warning4,#warning5,#warning6,#warning7,#warning8,#warning9,#warning10{
+font-size: 11px;
+color: red !important;
+padding: 5px;
+text-align: right;
+display: none;
+}
+
+.addPickup{
+padding: 30px 0;
+width:auto;
+display: block;
+background-color: #f8f8f8;
+color: #1a1a1a;
+text-align: center;
+}
+
+.addPickup:hover{
+color: #ffffff !important;
+background-color: #c0b69a;
+cursor: pointer;
+}
+
+.addItem{
+padding: 6px 0;
+width:auto;
+display: block;
+background-color: #f8f8f8;
+color: #1a1a1a;
+text-align: center;
+}
+
+.addItem:hover{
+color: #ffffff !important;
+background-color: #c0b69a;
+cursor: pointer;
+}
+
+.hiddenItems{
+display: none;
+}
+
+.grve-fields-wrapper .container{
+margin: 0;
+padding: 0;
+}
+
+.grve-fields-wrapper .row{
+margin: 0;
+padding: 0;
+}
+
+input[placeholder="Qty"]{
+padding: 6px 3px!important;
+}
+
+.overflowVisible{
+overflow: visible;
+}
+
+#promo25{
+overflow: visible;
+}
+
+#promofield{}
+
+
+.topIcon{
+font-size: 13px;
+padding: 8px 13px; 
+background-color: #c0b69a; 
+color: #ffffff;
+float: left;
+margin: 3px;
+border-radius: 3px;
+}
+
+.topIcon:hover{
+color: #c0b69a !important;
+background-color: #e8e8e8;
+}
+
+.bottomGetQuote{
+font-size: 13px;
+padding: 8px 20px; 
+background-color: #c0b69a; 
+color: #ffffff !important;
+float: left;
+margin: 3px;
+border-radius: 3px;
+z-index: 2147483647;
+text-transform: uppercase;
+font-family: 'nunito sans', nunito;
+}
+
+.bottomGetQuote:hover{
+color: #c0b69a !important;
+background-color: #ffffff;
+
+}
+
+@media only screen and (max-width: 702px){
+
+.bottomMobile{
+position: fixed;
+bottom: 10px;
+right: 10px;
+z-index: 2147483647;
+}
+
+.bottomMobile i{
+color: #ffffff !important;
+}
+
+
+.mobileBottomLeftMargin{
+margin-left: 60px;
+}
+
+}
+
+@media only screen and (min-width: 702px){
+.topMobile, .bottomMobile{
+display: none;
+}
+}
+
+@media only screen and (min-width: 1200px){
+.negativeMargin{
+margin-top: -300px;
+}
+}
+
+
+.revealPhone, .revealEmail{
+color: #c0b69a;
+margin: 3px 0 3px 3px;
+background-color: #f2f2f2; 
+font-size: 13px;
+padding: 8px 13px; 
+display: inline-block;
+float: left;
+display: none;
+border-radius: 3px 0 0 3px;
+}
+
+
+.headerIcon{
+font-size: 13px;
+padding: 8px 13px; 
+background-color: #c0b69a; 
+color: #ffffff;
+float: left;
+margin: 3px;
+border-radius: 3px;
+transition: 0.3s;
+}
+
+.headerIcon:hover{
+color: #c0b69a !important;
+background-color: #e8e8e8;
+transition: 0.3s;
+}
+
+
+.headerIcon{
+float: left;
+}
+
+@media only screen and (min-width: 1200px){
+.topIcons{
+min-height: 90px !important;
+position: absolute;
+top: 0px ;
+margin-top: 23px !important;
+right: 30px;
+z-index: 2147483647;
+}
+
+.topIcons i{
+color: #ffffff !important;
+}
+}
+
+@media only screen and (max-width: 1200px){
+.topIcons{
+min-height: 90px !important;
+position: absolute;
+top: 0px ;
+margin-top: 23px !important;
+z-index: 2147483647;
+right: 100px;
+}
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 600px){
+.responsivePadding{
+padding-bottom: 100px;
+}
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px){
+.responsivePadding{
+padding-bottom: 30px;
+}
+}
+
+@media only screen and (max-width: 400px){
+.responsivePadding{
+padding-bottom: 5px;
+}
+}
+
+@media only screen and (max-width: 400px){
+.negativeBottomPadding{
+margin-bottom: -100px;
+}
+}
+
+
+.grve-testimonial-content{
+min-height: 240px;
+background-image: url('http://www.palmerstonmoving.com/wp-content/uploads/2018/07/moving-company-review-toronto.png');
+background-size: cover;
+padding: 60px 10px 0 30px;
+background-repeat: no-repeat;
+}
+
+
+.grve-testimonial-item{
+background-color: rgba(250,250,250,0.3);
+padding: 50px;
+border: solid 5px #e8e8e8;
+}
+
+.grve-text-primary-1{
+float: right;
+color: #ffd300;
+font-size: 16px;
+}
+
+.topPhoneNumber{
+background-color: #2b2b2b;
+color: white;
+float: right;
+padding: 10px 15px;
+letter-spacing: 2px;
+font-family: nunito;
+font-size: 14px;
+border-radius: 4px;
+margin-right: 6px;
+margin-top: 9px;
+}
+
+.topPhoneNumber:hover,.topPhoneNumber:active {
+background-color: #c0b69a;
+}
+
+.topPhoneNumber a{
+color: white;
+text-decoration: none;
+}
+
+#StepTwo, #StepThree {
+display: none;
+}
+
+#movingDivOne, #movingDivTwo {
+display: block;
+}
+
+#movingDivTwo, #revealMovingDivOne{
+display: none;
+}
+
+#revealMovingDivTwo{
+cursor: pointer;
+}
+
+.zIndexTop{
+z-index: 9999 !important;
+}
+
+</style>
