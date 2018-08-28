@@ -69,7 +69,10 @@ $(document).ready(function() {
             }
          });
       }); 
-      $(".zIndexTop").attr("height","1000px");
+      $(".zIndexTop").attr("height","1000px", function(){
+      $( "#updateMovingDiv" ).load(window.location.href + " #updateMovingDiv" );
+      
+      });
    });		
 
 });
