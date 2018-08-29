@@ -59,21 +59,20 @@ $(document).ready(function() {
 $(document).ready(function() {
 		
    $("#revealMovingDivTwo").click(function(){             
-      $(".movingDivOne").toggle("slow", function(){
-         $("#movingDivTwo").toggle("slow", function(){
+      $("#movingDivTwo").slideToggle(1000, function(){
            
-          if ( $("#revealMovingDivTwo").text() == "Request a Quote" ) {
+          if ( $("#revealMovingDivTwo").text() == "Request an Estimate" ) {
           $("#revealMovingDivTwo").text("Show Testimonials", function(){
-      $( "#updateMovingDiv" ).load(window.location.href + " #updateMovingDiv" );
+      $( "#rev_slider_12_1" ).load(window.location.href + "#rev_slider_12_1" );
       
       });
           } else if ( $("#revealMovingDivTwo").text() == "Show Testimonials" ){
-               $("#revealMovingDivTwo").text("Request a Quote", function(){
-      $( "#updateMovingDiv" ).load(window.location.href + " #updateMovingDiv" );
+               $("#revealMovingDivTwo").text("Request an Estimate", function(){
+      $( "#rev_slider_12_1" ).load(window.location.href + "#rev_slider_12_1" );
       
       });
             }
-         });
+      
       }); 
       $(".zIndexTop").attr("height","1000px");
    });		
@@ -2007,7 +2006,7 @@ display: none;
 display: block;
 }
 
-#movingDivTwo, #revealMovingDivOne{
+#movingDivTwo{
 display: none;
 }
 
